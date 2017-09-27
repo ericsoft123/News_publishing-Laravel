@@ -1,0 +1,32 @@
+
+first step: Note:skip This file and open  Readme.txt if your computer has all this requirement
+
+1:download lavavel composer https://getcomposer.org/
+2.install composer:
+for windows user check this link how to install composer in windows 
+https://getcomposer.org/doc/00-intro.md#installation-windows
+
+for Linux / Unix / OSX user check
+
+https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx
+
+open your Terminal (Mac) or CMD(on windows user) i would recomend Git then Run as Admin
+type this command by First, download the Laravel installer using Composer:
+
+composer global require "laravel/installer"
+
+Make sure to place the $HOME/.composer/vendor/bin directory 
+(or the equivalent directory for your OS) in your $PATH so the laravel executable can be
+ located by your system.
+
+for more details how to install laravel visit https://laravel.com/docs/5.4/installation
+
+
+Then download git and install it 
+right click on project on source folder then right click and choose git bash here
+
+then type 'php artisan serve' command to start serve  then open webbrowser 
+
+then on web browser type 'localhost:8000'  Then first make sure that you have created database called 'news'
+
+Then start type:'php artisan migrate' command to migrate all table

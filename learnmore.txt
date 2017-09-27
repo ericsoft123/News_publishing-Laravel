@@ -1,0 +1,7 @@
+No 1 option is .bat file called runprogram.bat 
+it will execute execute.bat that run mainapp.php through google chrome
+i have created full OOP.php (mainapp.php) 
+under public folder in subfolder called php
+This file can check if my database is available and table is available too; in
+case they are available it will run localhost:8000 as default server of laravel server
+if they are not available it will create it by default.then rediret to localhost:8000
